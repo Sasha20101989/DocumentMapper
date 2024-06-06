@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Completed" xml:space="preserve">
+    <value>completed</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="ErrorAddCommentToCell" xml:space="preserve">
+    <value>Error adding comment '{0}' to row '{1}' and column '{2}'</value>
+  </data>
+  <data name="ErrorCreateFileAndFillCells" xml:space="preserve">
+    <value>Error creating a file</value>
+  </data>
+  <data name="ErrorDocmapperAdd" xml:space="preserve">
+    <value>Error adding new docmapper</value>
+  </data>
+  <data name="ErrorDocmapperColumnAdd" xml:space="preserve">
+    <value>Error adding new docmapper column</value>
+  </data>
+  <data name="ErrorDocmapperColumnGetAll" xml:space="preserve">
+    <value>Error getting list docmapper columns</value>
+  </data>
+  <data name="ErrorDocmapperContentUpdate" xml:space="preserve">
+    <value>Error updating document content</value>
+  </data>
+  <data name="ErrorDocmapperGetAll" xml:space="preserve">
+    <value>Error getting list docmappers</value>
+  </data>
+  <data name="ErrorDocmapperGetAllFiltered" xml:space="preserve">
+    <value>Error getting filtered list docmappers</value>
+  </data>
+  <data name="ErrorDocmapperUpdate" xml:space="preserve">
+    <value>Error updating docmapper</value>
+  </data>
+  <data name="ErrorDocumentContentWithDocmapperColumnIdNotFound" xml:space="preserve">
+    <value>Error, document content with docmapper column id {0} not found</value>
+  </data>
+  <data name="ErrorDocumentContentWithIdNotFound" xml:space="preserve">
+    <value>Error, document content with id {0} not found</value>
+  </data>
+  <data name="ErrorDocumentWithIdNotFound" xml:space="preserve">
+    <value>Error, document with id {0} not found</value>
+  </data>
+  <data name="ErrorExcelHeaderValidation" xml:space="preserve">
+    <value>Error header validation on a line №'{0}' in place of the expected '{1}' is located '{2}</value>
+  </data>
+  <data name="ErrorExcelSheetNotFound" xml:space="preserve">
+    <value>Error, sheet '{0}' was not found</value>
+  </data>
+  <data name="ErrorHighlightCell" xml:space="preserve">
+    <value>Error filling cells in the document '{0}' on sheet name '{1}'</value>
+  </data>
+  <data name="ErrorReadExcel" xml:space="preserve">
+    <value>Error parsing a file '{0}' from a sheet '{1}</value>
+  </data>
+  <data name="ErrorUserGetByAccount" xml:space="preserve">
+    <value>Error getting user by account '{0}'</value>
+  </data>
+  <data name="ErrorUserWithAccountNotFound" xml:space="preserve">
+    <value>Error, the user with the account '{0}' was not found</value>
+  </data>
+  <data name="LogAddCommentToCell" xml:space="preserve">
+    <value>adding comment '{0}' to row '{1}' and column '{2}'</value>
+  </data>
+  <data name="LogCreateFileAndFillCells" xml:space="preserve">
+    <value>creating file</value>
+  </data>
+  <data name="LogDocmapperAdd" xml:space="preserve">
+    <value>adding new docmapper</value>
+  </data>
+  <data name="LogDocmapperColumnAdd" xml:space="preserve">
+    <value>adding new docmapper column</value>
+  </data>
+  <data name="LogDocmapperColumnGetAll" xml:space="preserve">
+    <value>getting list docmapper columns</value>
+  </data>
+  <data name="LogDocmapperContentUpdate" xml:space="preserve">
+    <value>updating document content</value>
+  </data>
+  <data name="LogDocmapperGetAll" xml:space="preserve">
+    <value>getting list docmappers</value>
+  </data>
+  <data name="LogDocmapperGetAllFiltered" xml:space="preserve">
+    <value>getting filtered list docmappers</value>
+  </data>
+  <data name="LogDocmapperUpdate" xml:space="preserve">
+    <value>updating docmapper</value>
+  </data>
+  <data name="LogError" xml:space="preserve">
+    <value>error</value>
+  </data>
+  <data name="LogHighlightCell" xml:space="preserve">
+    <value>filling cells in the document '{0}' on sheet name '{1}'</value>
+  </data>
+  <data name="LogReadExcel" xml:space="preserve">
+    <value>parsing a file '{0}' from a sheet '{1}</value>
+  </data>
+  <data name="LogUserGetByAccount" xml:space="preserve">
+    <value>getting user by account '{0}'</value>
+  </data>
+</root>

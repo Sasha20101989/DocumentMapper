@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <RootNamespace>doc_mapper.nuget</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	<Nullable>enable</Nullable>
+	<AssemblyVersion>8.0.1.4</AssemblyVersion>
+	<FileVersion>8.0.1.4</FileVersion>
+	<Version>8.0.1.4</Version>
+	<PackageTags>WPF;docmapper</PackageTags>
+	<Product>DocumentMapper</Product>
+	<Authors>Aleksander Felyugin</Authors>
+	<PackageId>DocumentMapper</PackageId>
+	<PackageProjectUrl>http://10.135.130.163/itis/is/creuc/nuget-galery/nuget-library/doc-mapper.nuget</PackageProjectUrl>
+	<RepositoryUrl>http://10.135.130.163/itis/is/creuc/nuget-galery/nuget-library/doc-mapper.nuget</RepositoryUrl>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="ClosedXML" Version="0.102.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.4" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.4" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Properties\Resources.ru-RU.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
